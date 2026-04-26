@@ -6,6 +6,7 @@
 The AI-Powered Skill Assessment Agent is an automated human resources screening application. It evaluates candidate resumes against specific job descriptions, conducts a dynamic technical interview, scores responses, and generates targeted upskilling plans based on identified knowledge gaps.
 
 ## System Architecture
+![Application Architecture](architecture.png)
 * **Frontend Framework & State Management:** Streamlit
 * **Large Language Model (LLM):** Groq API (Meta Llama 3.1 8B)
 * **Document Parsing:** PyPDF2
@@ -27,6 +28,5 @@ The AI-Powered Skill Assessment Agent is an automated human resources screening 
 ## Local Setup Instructions
 
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/prat181/ai-skill-assessor.git](https://github.com/prat181/ai-skill-assessor.git)
-   cd ai-skill-assessor
+  git clone https://github.com/prat181/ai-skill-assessor.git
+cd ai-skill-assessor
